@@ -116,28 +116,28 @@ Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
 
 	struct up {
 		int x;
-		inline up(int x):x(x){}
+		inline up(int x=1):x(x){}
 		inline Print& operator()(Print& out) const {return out<<preambleAndNumberAndValue(x,'A');}
 	};
 	inline Print& operator<<(Print &o, const up cmd) { return cmd(o); }
 
 	struct down {
 		int x;
-		inline down(int x):x(x) {}
+		inline down(int x=1):x(x) {}
 		inline Print& operator()(Print& out) const {return out<<preambleAndNumberAndValue(x,'B');}
 	};
 	inline Print& operator<<(Print &o, const down cmd) { return cmd(o); }
 
 	struct forward {
 		int x;
-		inline forward(int x):x(x) {}
+		inline forward(int x=1):x(x) {}
 		inline Print& operator()(Print& out) const {return out<<preambleAndNumberAndValue(x,'C');}
 	};
 	inline Print& operator<<(Print &o, const forward cmd) { return cmd(o); }
 
 	struct backward {
 		int x;
-		inline backward(int x):x(x) {}
+		inline backward(int x=1):x(x) {}
 		inline Print& operator()(Print& out) const {return out<<preambleAndNumberAndValue(x,'D');}
 	};
 	inline Print& operator<<(Print &o, const backward cmd) { return cmd(o); }
