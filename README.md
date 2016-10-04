@@ -4,7 +4,7 @@ Collection of ANSI codes to use on c++ streams
 
 environment: **Arduino**
 
-![ANSI terminal example]("https://github.com/neu-rah/AnsiStream/ansi.jpg")
+![ANSI terminal example]("https://github.com/neu-rah/AnsiStream/blob/master/ansi.jpg")
 
 
 ## Example
