@@ -4,6 +4,10 @@ Collection of ANSI codes to use on c++ streams
 
 environment: **Arduino**
 
+ANSI terminal codes allow setting cursor position, color and text styles like bold or italic.
+
+[see Wiki article](https://en.wikipedia.org/wiki/ANSI_escape_code)
+
 ![ANSI terminal example](https://github.com/neu-rah/AnsiStream/blob/master/ansi.jpg "example")
 
 
