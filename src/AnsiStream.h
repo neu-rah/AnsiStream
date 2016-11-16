@@ -34,7 +34,7 @@ Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
 	#define Ansiterm_h
 
 	#include <Arduino.h>
-	#include <Streaming.h>
+	#include <streamFlow.h>
 
 	#define ESCAPE 0x1B
 	#define BRACE '['
