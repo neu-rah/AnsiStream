@@ -1,3 +1,4 @@
+/* -*- C++ -*- */
 /*
 Ansi structures to use with Streaming (https://github.com/scottdky/Streaming)
 
@@ -30,11 +31,12 @@ Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
 
 */
 
-#ifndef Ansiterm_h
-	#define Ansiterm_h
+#ifndef AnsiStream_h
+	#define AnsiStream_h
 
 	#include <Arduino.h>
 	#include <streamFlow.h>
+	// #include <Streaming.h>
 
 	#define ESCAPE 0x1B
 	#define BRACE '['
