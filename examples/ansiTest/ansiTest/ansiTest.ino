@@ -11,6 +11,10 @@ void setup() {
 }
 
 void loop() {
-  Serial<<xy(7,2)<<setForegroundColor(RED)<<millis()/1000<<endl;
+  Serial
+    <<xy(7,2)
+    <<setForegroundColor(RED)
+    <<millis()/1000
+    <<endl;
   delay(100);
 }
